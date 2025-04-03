@@ -6,15 +6,15 @@ Since gitea does not support relative links for asciidoc files, I have used
 absolute links instead. This means that they will not work for mirrors.
 ====
 
-This repository holds the patch files to modify upstream gentoo ebuilds before
-they go into my https://src.reticentadmin.com/aryan/haoyis-gentoo-overlay[overlay].
+This repository holds the patch files to modify upstream gentoo ebuilds and test
+if hardened-chromium and musl patches apply and build.
 
 === Contents
 
 === Contents
 
-1. https://src.reticentadmin.com/aryan/ebuild_patches/src/branch/main/patches/nodejs_ebuild.patch[net-libs/nodejs] - Remove gcc dependency.
-2. https://src.reticentadmin.com/aryan/ebuild_patches/src/branch/main/patches/chromium_ebuild.patch[www-client/chromium] - Include hardened + musl patches.
+1.
+https://src.reticentadmin.com/aryan/ebuild_patches/src/branch/testing/patches/chromium_ebuild.patch[www-client/chromium] - Disable cfi and use custom libcxx if musl
 
 === Usage
 
