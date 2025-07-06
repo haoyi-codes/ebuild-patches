@@ -13,9 +13,6 @@ they go into my https://src.reticentadmin.com/aryan/haoyis-gentoo-overlay[overla
 
 === Contents
 
-1. https://src.reticentadmin.com/aryan/ebuild_patches/src/branch/main/patches/nodejs_ebuild.patch[net-libs/nodejs] - Remove gcc dependency.
-2. https://src.reticentadmin.com/aryan/ebuild_patches/src/branch/main/patches/chromium_ebuild.patch[www-client/chromium] - Include hardened + musl patches.
-
 === Usage
 
 [source,console]
